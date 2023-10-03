@@ -18,7 +18,7 @@ class bus_booking:
     def home_page(self):
         root = Tk()
         root.title("HOME PAGE")
-
+        #ABC 
         bus = PhotoImage(file='Bus_for_project.png')
         h, w = root.winfo_screenheight(), root.winfo_screenwidth()
         root.geometry('%dx%d+0+0' % (w, h))
